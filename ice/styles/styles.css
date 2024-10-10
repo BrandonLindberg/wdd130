@@ -17,6 +17,7 @@ div{
 }
 
 .list {
+    font-weight: bold;
     color: black;
 }
 
@@ -25,13 +26,14 @@ img {
 }
 
 .lower-header {
+    width: 50%;
     text-align: center;
-    width: 45%;
+    font-size: 20px;
 }
 
 footer {
-    margin: 0 auto;
     width: 50%;
+    margin: 0 auto;
     text-align: center;
     font-size: 12px;
     color: black;
