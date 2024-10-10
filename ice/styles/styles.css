@@ -1,0 +1,38 @@
+body {
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #5ca1d7;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+div{
+    list-style-position: inside;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.list {
+    color: black;
+}
+
+img {
+    width: 40%;
+}
+
+.lower-header {
+    text-align: center;
+    width: 45%;
+}
+
+footer {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
