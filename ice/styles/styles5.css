@@ -1,10 +1,21 @@
 body {
     text-align: center;
+    margin: 0;
+    background-color: grey;
+}
+
+.head-img {
+    width: 100%;
+    display: grid;
 }
 
 .graphics img {
+    width: 10%;
     border-radius: 50%;
-    border: px solid grey;
-    width: 20%;
-    padding: 50px;
+    border: 10px solid rgb(69, 69, 69);
+    margin: 65px;
+}
+
+.graphics {
+    background-color: grey;
 }
