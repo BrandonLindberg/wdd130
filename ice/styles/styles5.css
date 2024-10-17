@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+
+.graphics img {
+    border-radius: 50%;
+    border: px solid grey;
+    width: 20%;
+    padding: 50px;
+}
