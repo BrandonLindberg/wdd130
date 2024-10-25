@@ -18,3 +18,9 @@ body {
     background-color: lightgrey;
     text-align: center;
 }
+
+.cherry-text {
+    font-size: 85px;
+    color: darkred;
+    letter-spacing: 10px;
+}
