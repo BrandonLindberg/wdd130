@@ -6,6 +6,12 @@ body {
     margin-top: -20px;
 }
 
+.main-paragraph {
+    width: 45%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
 div {
     margin: auto;
     width: 35%;
@@ -16,4 +22,13 @@ div {
 .footer-grid {
     display: grid;
     grid-template-columns: auto auto auto;
+    width: 19%;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+}
+
+.footer-grid div {
+    font-size: 12px;
+    text-align: center;
 }
