@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Component</title>
+    <script>
+    function openTab(evt, tabName) {
+
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+    } 
+    </script>
+</head>
+<body>
+    <h1>Component Test</h1>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Hotpockets')">Hotpockets</button>
+        <button class="tablinks" onclick="openTab(event, 'Cereal')">Cereal</button>
+        <button class="tablinks" onclick="openTab(event, 'Pizza')">Pizza</button>
+      </div>
+      
+      <!-- Tab content -->
+      <div id="Hotpockets" class="tabcontent">
+        <h3>Hotpockets</h3>
+        <p>This tab is about Hotpockets.</p>
+      </div>
+      
+      <div id="Cereal" class="tabcontent">
+        <h3>Cereal</h3>
+        <p>This tab is about cereal.</p>
+      </div>
+      
+      <div id="Pizza" class="tabcontent">
+        <h3>Pizza</h3>
+        <p>This tab is about pizza.</p>
+      </div>
+</body>
+</html>
