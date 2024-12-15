@@ -77,6 +77,10 @@ p {
     font-size: 18px;
 }
 
+.page_2_image img {
+    width: 50%;
+}
+
 .images_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -86,11 +90,11 @@ p {
     width: 100%;
 }
 
-.image1 {
+.image_grid_1 {
     grid-column: 2/3;
 }
 
-.image2 {
+.image_grid_2 {
     grid-column: 4/5;
 }
 
