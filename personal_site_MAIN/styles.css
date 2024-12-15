@@ -81,21 +81,16 @@ p {
     width: 50%;
 }
 
-.images_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+.parent {
+    display: flex;
 }
 
-.images_container img {
-    width: 100%;
+.child {
+    flex: 50%;
 }
 
-.image_grid_1 {
-    grid-column: 2/3;
-}
-
-.image_grid_2 {
-    grid-column: 4/5;
+.child img {
+    width: 75%;
 }
 
 footer {
