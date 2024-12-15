@@ -28,9 +28,9 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: lightblue;
     text-decoration: underline;
-    background-color: darkblue;
+    background-color: purple;
 }
 
 header {
@@ -58,8 +58,21 @@ p {
     margin-bottom: 100px;
 }
 
+.text2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin-bottom: 100px;
+}
+
 .blurb {
     grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 18px;
+}
+
+.blurb2 {
+    grid-column: 2/4;
     grid-row: 2/3;
     font-size: 18px;
 }
@@ -100,11 +113,11 @@ footer a {
 }
 
 footer a:hover {
-    color: purple;
+    color: lightblue;
     text-decoration: underline;
 }
 
-footer .social .img {
-    width: 75px;
+footer .social img {
+    width: 50px;
     padding: 0px 10px;
 }
